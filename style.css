@@ -1,0 +1,35 @@
+bodysh -u ori {
+    background-color: rgb(178, 241, 212);
+    color: rgb(138, 8, 94);
+    font-family: "Copperplate", fantasy;
+    letter-spacing: 1px;
+
+    width: vw;
+    max-width: 800px;
+    margin: left;
+    padding: 10px 50px;
+}
+
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    width: vw;
+}
+
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    letter-spacing: 3px;
+    font-weight: lighter;
+    border:2px solid rgb(7, 100, 57);
+    background: rgb(14, 184, 105);
+    width: vs; 
+    max-width: 550px;
+    text-align: center;
+}
