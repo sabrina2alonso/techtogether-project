@@ -1,5 +1,5 @@
-bodysh -u ori {
-    background-color: rgb(178, 241, 212);
+body{
+    background-color: #E5E5E5;
     color: rgb(138, 8, 94);
     font-family: "Copperplate", fantasy;
     letter-spacing: 1px;
@@ -24,7 +24,7 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h1 {
+/* h1 {
     letter-spacing: 3px;
     font-weight: lighter;
     border:2px solid rgb(7, 100, 57);
@@ -32,4 +32,35 @@ h1 {
     width: vs; 
     max-width: 550px;
     text-align: center;
+} */
+
+
+/* h1, h3{ 
+    font-family: Limelight; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: normal; 
+    line-height: 100px; 
 }
+
+h2, h4 {
+   /* Font test Accessible Miami Travel Guide Hi h2 H3 h4 Body Accommodations are made for people with disabilities to access and ride Metrobus, Metrorail and Metromover. Micro/Captions Accessible services include parking, elevators, platform tactile tiles, raised lettering and Braille signage, wheelchair turnstiles, a public-address system, curb cuts, elevator status announcements and Telecommunications Devices for the Deaf. */
+
+position: absolute;
+width: 420px;
+height: 948px;
+
+/* Menu-Web */
+font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+line-height: 72px;
+/* or 120% */
+text-align: center;
+text-transform: uppercase;
+
+/* Text */
+color: #252525;
+
+} */
