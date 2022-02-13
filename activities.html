@@ -7,104 +7,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Activities</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Limelight">
 </head>
 
 <body>
     <nav class="navbar">
         <div class="navbar_container">
-            <a href="/" id="navbar_logo">Accessible Miami</a>
-            <div class="navbar_toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar_menu">
-                <li class="navbar_item">
-                    <a href="/" class="navbar_links"> Home</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="/transport.html" class="navbar_links"> Transportation</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="/hotels.html" class="navbar_links"> Places to Stay</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="/activities.html" class="navbar_links"> Activities</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="/food-drink.html" class="navbar_links"> Food & Drink</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="/airport.html" class="navbar_links"> Extras</a>
-                </li>
-            </ul>
+            <nav>
+                <ul class="navbar_menu">
+                    <li class="navbar_item">
+                        <a href="index.html" class="navbar_links"> Home</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="/transport.html" class="navbar_links"> Transportation</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="/hotels.html" class="navbar_links"> Places to Stay</a>
+                    </li>
+
+                    <div class="logo">
+                        <a href="index.html" id="navbar_logo"><img src="/images/Accessible Miami Logo_home-color.png"
+                                alt="Accessible Miami Travel Guide logo." width="50%"></a>
+                    </div>
+
+                    <li class="navbar_item">
+                        <a href="/activities.html" class="navbar_links"> Activities</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="/food-drink.html" class="navbar_links"> Food & Drink</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="/airport.html" class="navbar_links"> Extras</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </nav>
+    
     <div class="main">
         <div class="main__container">
-            <div class="main__img--container">
-                <img src="images/beach1.jpg" alt="Beachside." id="main__img" />
+            <div class="main__container--image">
+                <img src="images/cars2.jpg" alt="Cars in traffic." id="intro-img" width="200px">
             </div>
-            <div class="main__content">
-                <h1>Activities</h1><br>
-                <p>You're traveling out to Miami and need to find some resources on accessibility in the area. Look no
-                    further than
-                    our <em> Accessibility Travel Guide: Miami Edition.</em> <br><br>
-                    We provide information on accessible transportation, hotels, activities, and more! All our info
-                    pages come with
-                    resources in case you want to learn more about the accessibility available in the Miami area. </p>
+            <div class="main__container--text">
+                <h1>Activites</h1> <br>
+
+                <p> What are you supposed to do now that you're here in Miami? Is there any activities that are accessible to me? We provide you with a list of places to go and activites to do during your stay.</p><br><br>
+            </div>
+
+            <div class="main__container--text1">
+                <h3>Our top picks:</h3><br>
+
+                <div class="row">
+                    <div class="column">
+                        <img src="images/symphony-act.jpg" alt="COncert hall seating." class="cars1" width="200px" height="133px">
+                        <p class="categ">New World Symphony:</p>
+                        <ul class="list">
+                            <li>Provides a sensory-friendly environment for anyone who may have austism and/or sensory processing dirorders</li>
+                            <li>Live stream concert feed with reduced volume, noise-redacting headphones, and muted lighting</li>
+                            <li>Also a quiet room availible</li>
+                        </ul>
+                    </div> 
+
+                    <div class="column">
+                        <img src="images/beach-act.jpg" alt="Sunset at the beach." class="cars1" width="200px">
+                        <p class="categ">The beach:</p>
+                        <ul class="list">
+                            <li>Free manual or motorized wheelchairs</li>
+                            <li>wheelchair access to the beach via Mobi-Mats</li>
+                        </ul><br>
+                    </div>
+
+                    <div class="column">
+                        <img src="images/watersport-act.jpg" alt="Someone kayaking." class="cars1" width="200px">
+                        <p class="categ">Shake-A-Leg:</p>
+                        <ul class="list">
+                            <li>Works with adults and kids with physical, developmental, and econimic challenges</li>
+                            <li>Array of theraputic/ relaxing watersports</li>
+                        </ul><br>
+                    </div>
+
+                    <div class="column">
+                        <img src="images/zoo-act.jpg" alt="Zoo display." class="cars1" width="200px">
+                        <p class="categ">Miami Zoos:</p>
+                        <ul class="list">
+                            <li>Plans on creating sensory bags including noise-cancelling headphones and fidget toys</li>
+                            <li>Quiet spaces</li>
+                            <li>Monorails and trams for wheelchair accessibility</li>
+                        </ul><br>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="resources"><a href="https://www.miamidade.gov/global/service.page?Mduid_service=ser1531255192150175" target="_blank">Relaxing Activities</a></div>
+        <div id="resources">
+            <h3>Resources:</h3>
+            <a href="https://www.miamidade.gov/global/service.page?Mduid_service=ser1531255192150175"
+                target="_blank">Theraputic Recreation and Inclusion</a><br>
+
+            <a href="https://www.visitflorida.com/travel-ideas/articles/family-travel-autism-special-needs-miami-florida/"
+                target="_blank">Activities for Children with Special Needs</a><br>
+
+            <a href="https://accessiblego.com/articles/Top_10_Accessible_Attractions_in_Miami_" target="_blank">Top Accessible Attrcations</a><br>
+
+            <a href="https://spintheglobe.net/dir/2017/12/10/wheelchair-accessible-things-to-do-miami/" target="_blank">Wheelchair Accessible Things To Do</a>
+        </div>
 </body>
 
 <footer>
     <div class="footer__container">
         <div class="footer__links">
             <div class="footer__link--wrapper">
+
                 <div class="footer__link--items">
+                    <div class="social__media">
+                    </div>
                     <h2>About Us</h2>
-                    <a href="/">Inspiration</a>
-                    <a href="/">Testimonals</a>
+                    <a href="about.html#krista">Krista</a>
+                    <a href="about.html#lauryn">Lauryn</a>
+                    <a href="about.html#harper">Harper</a>
+                    <a href="about.html#sabrina">Sabrina</a>
                 </div>
+
                 <div class="footer__link--items">
                     <h2>Contact Us</h2>
-                    <a href="/">Support</a>
-                    <a href="/">Location</a>
+                    <a href="https://miami.techtogether.io/">TechTogether Miami</a>
+                    <a href="https://techtogether.io/index">TechTogether Co.</a>
                 </div>
             </div>
-            <div class="footer__link--wrapper">
-                <div class="footer__link--items">
-                    <h2>Social Media</h2>
-                    <a href="/">Instagram</a>
-                    <a href="/">Facebook</a>
-                    <a href="/">Twitter</a>
-                </div>
-            </div>
-        </div>
-        <div class="social__media">
+
             <div class="sociam__media--wrap">
                 <div class="footer__logo">
-                    <a href="/" id="footer__logo"><i class="fas faa-gem"></i>Accessible Miami</a>
+                    <a href="/" id="footer__logo"><img src="/images/Accessible Miami Logo_home-color.png" width="60%"
+                            alt="Accessible Miami Travel Guide logo." id="foot-logo"></a>
                 </div>
-                <p class="website__right">Accessible Miami 2022. All rights reserved</p>
-                <div class="social__icons">
-                    <a href="/" class="social__icon--link" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="/" class="social__icon--link" target="_blank">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                    <a href="/" class="social__icon--link" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </div>
+                <p class="website__rights">&copy; 2022 . All rights reserved</p>
             </div>
         </div>
     </div>
-    </div>
+
 
 </footer>
+
 </html>
