@@ -8,12 +8,28 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Limelight">
+    <style>
+        .navbar {
+            background-image: url("/images/home-header.jpg");
+            background-color: #cccccc;
+            height: 300px;
+        }
+
+        .navbar_links {
+            color: black;
+            vertical-align: top;
+            font-weight: bold;
+            background-color: aliceblue;
+        }
+
+    </style>
 </head>
 
 <body>
     <nav class="navbar">
         <div class="navbar_container">
-            <a href="/" id="navbar_logo">Accessible Miami</a>
+<!-- 
+            <img src="/images/home-header.jpg" alt="Beach header"> -->
 
             <ul class="navbar_menu">
                 <li class="navbar_item">
@@ -44,17 +60,28 @@
     </nav>
 
     <div class="main">
+
+        <a href="index.html" id="navbar_logo"><img src="/images/Accessible Miami Logo_home-color.png" width="200px"
+                alt="Access Miami Travel Guide logo"></a>
+
+        <div class="home_icons">
+            <div class="row">
+                <div class="column"><img src="/images/Active Icon.png" alt="Wheelchair icon.">
+                    
+                </div>
+                <div class="column"><img src="/images/Dine Icon.png" alt="Food and drink icon."></div>
+                <div class="column"><img src="/images/Stay Icon.png" alt="Bed icon."></div>
+                <div class="column"><img src="/images/Transport Icon.png" alt="Car icon."></div>
+            </div>
+        </div>
+
+
         <div class="main__container">
             <div class="main__img--container">
                 <img src="images/Miami.jpg" alt="pic" id="main__img" />
             </div>
-            <div class="main__content">
-
-                <h2>Accessible</h2>
-                <h1>Miami</h1>
-                <h4>Travel Guide</h4>
-
-                <br><br><br><br><br><br>
+            <div class="main__content"> 
+                <br>
                 <h1>Miami Accessibility Travel Guide!</h1><br>
                 <p>You're traveling out to Miami and need to find some resources on accessibility in the area. Look no
                     further than
@@ -72,41 +99,32 @@
     <div class="footer__container">
         <div class="footer__links">
             <div class="footer__link--wrapper">
+
                 <div class="footer__link--items">
+                    <div class="social__media">
+                    </div>
                     <h2>About Us</h2>
-                    <a href="/">Inspiration</a>
-                    <a href="/">Testimonals</a>
+                    <a href="about.html#krista">Krista</a>
+                    <a href="about.html#lauryn">Lauryn</a>
+                    <a href="about.html#harper">Harper</a>
+                    <a href="about.html#sabrina">Sabrina</a>
                 </div>
+
                 <div class="footer__link--items">
                     <h2>Contact Us</h2>
-                    <a href="/">Support</a>
-                    <a href="/">Location</a>
+                    <a href="https://miami.techtogether.io/">TechTogether Miami</a>
+                    <a href="https://techtogether.io/index">TechTogether Co.</a>
                 </div>
             </div>
-            <div class="footer__link--wrapper">
-                <div class="footer__link--items">
-                    <h2>Social Media</h2>
-                    <a href="/">Instagram</a>
-                    <a href="/">Facebook</a>
-                    <a href="/">Twitter</a>
-                </div>
-            </div>
-        </div>
-        <div class="social__media">
-            <div class="social__media--wrap">
+
+            <div class="sociam__media--wrap">
                 <div class="footer__logo">
-                    <a href="/" id="footer__logo"><i class="fas faa-gem"></i>Accessible Miami</a>
+                    <a href="/" id="footer__logo"><img src="/images/Accessible Miami Logo_home-color.png" width="60%"
+                            alt="Accessible Miami Travel Guide logo." id="foot-logo"></a>
                 </div>
-                <p class="website__right">Accessible Miami 2022. All rights reserved</p>
-                <div class="social__icons">
-                    <a href="/" class="social__icon--link" target="_blank">
-                    </a>
-                    <a href="/" class="social__icon--link" target="_blank"></a>
-                    <a href="/" class="social__icon--link" target="_blank"></a>
-                </div>
+                <p class="website__rights">&copy; 2022 . All rights reserved</p>
             </div>
         </div>
     </div>
-   
-    </footer>
+</footer>
 </html>
