@@ -10,31 +10,133 @@
 </head>
 
 <body>
-    <nav>
-        <table>
-            <tr>
-                <td><a href="index.html">Home</a></td>
-                <td><a href="transport.html">Transportation</a></td>
-                <td><a href="hotels.html">Places to Stay</a></td>
-                <td><a href="activities.html">Activities</a></td>
-                <td><a href="food-drink.html">Food & Drink</a></td>
-                <td><a href="airport.html">Extras</a></td>
-            </tr>
-        </table>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="/" id="navbar_logo">Accessible Miami</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="/" class="navbar_links"> Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/transport.html" class="navbar_links"> Transportation</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/hotels.html" class="navbar_links"> Places to Stay</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/activities.html" class="navbar_links"> Activities</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/food-drink.html" class="navbar_links"> Food & Drink</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/airport.html" class="navbar_links"> Extras</a>
+                </li>
+            </ul>
+        </div>
     </nav>
+    <div class="main">
+        <div class="main__container">
+            <div class="main__container--image">
+                <img src="images/cars2.jpg" alt="Cars in traffic." id="intro-img" width="200px">
+            </div>
+            <div class="main__container--text">
+                <h1>Transportation</h1><br>
 
-    <div class="resources">
-        <h4>Resources:</h4>
-        <!-- target="_blank" -->
-        <ul>
-            <li><a href="https://www.miamidade.gov/business/library/brochures/taxicab-wheelchair.pdf"
-                    target="_blank">Wheelchair Accessible Taxi Cabs PDF</a></li>
-            <li><a href="https://www.miamidade.gov/global/service.page?Mduid_service=ser1478804354805457"
-                    target="_blank">Accessible Transit Services</a></li>
-            <li><a href="https://accessmiami.org/local-resources/transportation" target="_blank">Miami Local Accessible
-                    Transportation Services</a></li>
-        </ul>
+                <p> You're in a new city with no way of geting around. Luckiily, Miami Dade County provides a multitude of accessible transportation, inclusing busses, taxis, and  the metrorail.</p><br><br>
+            </div>
+
+            <div class="main__container--text1">
+                <h2>What do these services provide?</h2><br>
+                <img src="images/cars1.jpg" alt="Taxi cabs." class="cars1" width="500px">
+                <p>Taxicabs:</p>
+                    <ul>
+                        <li>Wheelchair boarding / accessibility</li>
+                    </ul><br>
+
+                <p>Metrobus:</p>
+                    <ul>
+                        <li>Wheelchairs/ mobility aids have priority boarding</li>
+                        <li>Stop announcments are announced</li>
+                    </ul><br>
+
+                <p>Metrorail:</p>
+                    <ul>
+                        <li>Stations for wheelchair/ mobility aids</li>
+                        <li>Announcment system alerts if the elevators are out of order and where</li>
+                        <li>Backup service within 30 minutes of out of order elevator service*</li>
+                        <li>Free parking for riders with disabilities</li>
+                    </ul><br>
+
+                <p>General Metromover Services:</p>
+                    <ul>
+                        <li>Special needs emergency evacuation process set in place</li>
+                        <li>Service animals allowed</li>
+                    </ul>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="resources">
+        <h3>Resources:</h3>
+        <a href="https://www.miamidade.gov/business/library/brochures/taxicab-wheelchair.pdf" target="_blank">Wheelchair Accessible Taxi Services</a><br>
+        <a href="https://www.miamidade.gov/global/service.page?Mduid_service=ser1478804354805457" target="_blank">Transit Services</a><br>
+        <a href="https://accessmiami.org/local-resources/transportation" target="_blank">General Transportation Services for Accessibility</a>
     </div>
 </body>
+
+<footer>
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/">Inspiration</a>
+                    <a href="/">Testimonals</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="/">Support</a>
+                    <a href="/">Location</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Instagram</a>
+                    <a href="/">Facebook</a>
+                    <a href="/">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="sociam__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo"><i class="fas faa-gem"></i>Accessible Miami</a>
+                </div>
+                <p class="website__right">Accessible Miami 2022. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</footer>
 
 </html>

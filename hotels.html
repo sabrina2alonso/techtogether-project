@@ -8,27 +8,103 @@
     <link rel="stylesheet" href="style.css">
     <title>Places to Stay</title>
 </head>
-
 <body>
-    <nav>
-        <table>
-            <tr>
-                <td><a href="index.html">Home</a></td>
-                <td><a href="transport.html">Transportation</a></td>
-                <td><a href="hotels.html">Places to Stay</a></td>
-                <td><a href="activities.html">Activities</a></td>
-                <td><a href="food-drink.html">Food & Drink</a></td>
-                <td><a href="airport.html">Extras</a></td>
-            </tr>
-        </table>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="/" id="navbar_logo">Accessible Miami</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="/" class="navbar_links"> Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/transport.html" class="navbar_links"> Transportation</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/hotels.html" class="navbar_links"> Places to Stay</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/activities.html" class="navbar_links"> Activities</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/food-drink.html" class="navbar_links"> Food & Drink</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/airport.html" class="navbar_links"> Extras</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-
-    <div class="resources">
-        <h4>Resources:</h4>
-        <ul>
-            <li><a href="https://accessiblego.com/articles/Top_10_Accessible_Hotels_in_Miami" target="_blank">Accessible Hotels</a></li>
-        </ul>
+    <div class="main">
+        <div class="main__container">
+            <div class="main__img--container">
+                <img src="images/Miami.jpg" alt="pic" id="main__img" />
+            </div>
+            <div class="main__content">
+                <h1>Hotels & AirBnb's</h1><br>
+                <p>You're traveling out to Miami and need to find some resources on accessibility in the area. Look no
+                    further than
+                    our <em> Accessibility Travel Guide: Miami Edition.</em> <br><br>
+                    We provide information on accessible transportation, hotels, activities, and more! All our info
+                    pages come with
+                    resources in case you want to learn more about the accessibility available in the Miami area. </p>
+            </div>
+        </div>
     </div>
+
+    <div id="resources"><a href="https://accessiblego.com/articles/Top_10_Accessible_Hotels_in_Miami" target="_blank"></a></div>
 </body>
+
+<footer>
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/">Inspiration</a>
+                    <a href="/">Testimonals</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="/">Support</a>
+                    <a href="/">Location</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Instagram</a>
+                    <a href="/">Facebook</a>
+                    <a href="/">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="sociam__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo"><i class="fas faa-gem"></i>Accessible Miami</a>
+                </div>
+                <p class="website__right">Accessible Miami 2022. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</footer>
 
 </html>
